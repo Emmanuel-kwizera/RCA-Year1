@@ -1,0 +1,97 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(smart_classroom-1.jpg);
+width:100%;
+height: auto;
+min-height: 500px;
+margin: auto;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;	
+}
+
+
+header 
+{
+   background-color: #020746;
+   height: 112px;
+   line-height: 112px;
+   background-position: center;
+   position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+ul
+ {
+   list-style: none;
+}
+
+
+ul li 
+{
+   display: inline-block;
+}
+
+
+header nav 
+{
+   float: right;
+}
+
+
+header nav ul li a 
+{
+   padding-right: 30px;
+   font-weight: bold;
+   color: white;
+   transition: all 0.5s ease-in;
+   text-decoration: none;
+   font-size: 5mm;
+   width: 10mm;
+   height: 10mm;
+}
+
+
+header nav ul li a:hover
+{
+   text-decoration: none;
+   border: solid white;
+   border-radius: 7px;
+   border-width: 1px;
+   color: deepskyblue;
+   background-color: white;
+   margin: 2mm;
+}
+
+
+.left
+{
+	text-align: center;
+	color: #ff8800;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+
+
+
+
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+    border-radius: 50px;
+    box-shadow: 7px 4px    #020746;
+    height:300mm;
+    margin-top: 300px;
+}
